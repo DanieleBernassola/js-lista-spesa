@@ -7,8 +7,8 @@
 - creo una variabile count e la inizializzo a 0
 
 - WHILE (count < shoppingList.length){
-    const li = document.createElementById('li');
-    li.innerText = shoppingList[i];
+    const li = document.createElement('li');
+    li.innerText = shoppingList[count];
     ul.append(li);
     count++;
 }
